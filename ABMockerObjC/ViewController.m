@@ -73,7 +73,7 @@ static NSInteger contactsCount = 1000;
                 
                 NSInteger randomNumber = arc4random() % 100000000;
                 NSString *phone = [NSString stringWithFormat:@"%li", (long)randomNumber]; // the phone number to add
-                NSString *email = [NSString stringWithFormat:@"%li@gmail.com", i]; // the phone number to add
+                NSString *email = [NSString stringWithFormat:@"%li@alexeytester.com", i]; // the phone number to add
                 
                 /* Phone */
                 ABMutableMultiValueRef phoneNumberMultiValue = [self generatePhoneWithString:phone];
